@@ -1,0 +1,15 @@
+model: yolov10n.pt  # or yolov8s.yaml, yolov8m.yaml, etc.
+data: config.yaml
+epochs: 100
+imgsz: 640
+batch: 16
+
+# Augmentation settings
+hsv_h: 0.015  # Hue augmentation
+hsv_s: 0.7    # Saturation augmentation
+hsv_v: 0.4    # Value augmentation
+translate: 0.1  # Image translation (+/- fraction)
+scale: 0.5    # Image scale (+/- gain)
+fliplr: 0.5   # Image flip left-right (probability)
+mosaic: 1.0   # Image mosaic (probability)
+mixup: 0.0    # Image mixup (probability)

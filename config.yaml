@@ -1,0 +1,7 @@
+path: /home/proxi/projects/custom_yolo_rickshaw/data
+train: images/train
+val: images/train
+
+
+nc: 1  # number of classes
+names: ['cycle_rickshaw']  # class names
