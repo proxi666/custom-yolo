@@ -12,15 +12,4 @@ The goal of this project is to accurately detect rickshaws in videos using a cus
 - **Custom Dataset**: Annotated using CVAT for precise detection.
 - **Video Inference**: The model is applied to videos to detect and highlight rickshaws in real-time.
 
-## Installation
 
-To run this project, ensure you have the following dependencies installed:
-
-- Python 3.x
-- OpenCV
-- Ultralytics YOLOv8
-
-You can install the required packages using pip:
-
-```bash
-pip install ultralytics opencv-python
