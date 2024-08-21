@@ -46,6 +46,9 @@ The goal of this project is to accurately detect rickshaws in videos using a cus
 
 - **results.png**: This plot shows the training and validation loss trends for bounding box regression, classification, and DFL (Distribution Focal Loss). The losses decrease steadily, indicating that the model is learning well over time. Additionally, the validation metrics, including precision, recall, and mAP (mean Average Precision), show improvement, which is a good sign that the model generalizes well to unseen data.
 
+
+## Demo Video
+https://youtu.be/CIFtrbGp7Hg
   
 
 
